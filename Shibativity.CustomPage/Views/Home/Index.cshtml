@@ -1,0 +1,38 @@
+﻿
+@{
+	ViewBag.Title = "Index";
+}
+
+<h6><b>Current User: </b>@ViewBag.Email</h6>
+<br />
+<h2>Analyzing Shibes as a Service</h2>
+<br />
+
+<h4>About Shibativity</h4>
+<body>
+Shibativity is an application that gets images of Shiba Inus (and sometimes birds) from Shibe.Online and sends these images to
+Azure Cognitive Services. The Cognitive Services Computer Vision then determines what objects are in an image, what it thinks the subject of the image is,
+and a description of the image as a whole. These results are then stored and displayed in Relativity, where a user can make coding decisions on the accuracy
+of the Computer Vision results.
+</body>
+<br />
+<br />
+<br />
+
+<img src="@ViewBag.Image" alt="Random image from Shibe.Online"/>
+<br />
+<br />
+
+<h4>Frequently Asked Questions</h4>
+
+<h5><i><b>What is the point?</b></i></h5>
+<body>
+	Shibativity demonstrates how easy it is to utilize Azure services and incorporate them into an application. Plus, who doesn't like dogs?
+</body>
+<br />
+<br />
+
+<h5><i><b>Are you good at web design?</b></i></h5>
+<body>
+	No.
+</body>
