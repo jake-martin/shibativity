@@ -1,4 +1,4 @@
-# shibativity
+# Shibativity
 May 2019 Platform Project for DevEx. Note: the code in this project does not follow the Relativity Platform's best development practices as it was a learning exercise. Licensed under GPL 3.0.
 
 The goal of this solution was to build a simple Relativity Application. The requirements were to utilize agents, event handlers, custom pages, and RDOs.
